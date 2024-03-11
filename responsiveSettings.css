@@ -1,0 +1,71 @@
+  /* Define your media query for small screens */
+  @media screen and (max-width: 768px) {
+    body {
+        font-size: 14px; /* Adjust as needed */
+      }
+      .sideDiv,.sideDiv2, .sideDiv3{
+        width: 100%; 
+        top: 100px; 
+      }
+      nav ul li{
+        color: #ff9a62;
+      }
+      .btn-slide, .btn-slide2 {
+        position: relative;
+        left: 60px;
+        float: left;
+        display: inline-block;
+        height: 50px;
+        width: 190px;
+        line-height: 50px;
+        padding: 0;
+        border-radius: 50px;
+        background: #fdfdfd;
+        border: 2px solid #2b6394;
+        margin: 10px;
+        transition: .5s;
+      }
+      
+    nav {
+      /* Adjust styles for small screens */
+      display: flex;
+      flex-direction: column; /* Display items vertically */
+      /* Other styles as needed */
+    }
+    .profile-picture{
+        position: fixed;
+        margin-left:60%;
+        top:116px;
+        width: 100px;
+        height: 50px;
+    }
+    .liner-right,.img-right-line{
+        display: none;
+      }
+    .container {
+        display: none;
+    }
+    .texte{
+        display: none;
+    }
+    .full-stack-web-developer{
+        display: none;
+    }
+  }
+/* Media query for medium-sized screens */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+      /* Adjust styles for medium-sized screens */
+      font-size: 16px; /* For example, adjust font size */
+      /* Other styles as needed */
+    }
+  }
+  
+/* Media query for larger screens */
+@media screen and (min-width: 1025px) {
+    body {
+      /* Adjust styles for larger screens */
+      font-size: 18px; /* For example, adjust font size */
+      /* Other styles as needed */
+    }
+  }
