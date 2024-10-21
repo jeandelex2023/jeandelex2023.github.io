@@ -25,7 +25,7 @@ body {
     position: fixed;
     width: 300px;
     top: 0;
-    left: 3%;
+    left: 0;
 }
 
 .Madagagascar{
@@ -71,10 +71,11 @@ body {
 }
 .profile-picture{
     position: fixed;
-    margin-left:80%;
+    margin-left:81%;
     top:116px;
     width: 283px;
     height: 150px;
+    
 }
 .linkPicture{
   position: fixed;
@@ -352,7 +353,7 @@ footer {
 .sideDiv {
   position: fixed;
   top: 0;
-  right: -660px; /* initially hidden off to the right */
+  right: -682px;; /* initially hidden off to the right */
   width: 50%;
   height: 100%;
   z-index: -1;
@@ -367,10 +368,23 @@ footer {
     width: 40px;
     height: 40px;
 }
+.img-right-line2 {
+  position: absolute;
+  top: 250px;
+  height:200px;
+  left: 0;
+  width:400px;
+}
+.img-right-jeparticipe {
+  position: absolute;
+  left: 50px;
+  top:480px;
+  height:20%;
+  width:90%;
+}
 .emailContact{
   position: relative;
-  top: 320px;
-  margin-left: 30px;
+  top: 294px;
   z-index: -2;
 }
 .picDownload{
@@ -397,7 +411,7 @@ footer {
 .panelAbout,.panelProfile{
   position: relative;
   font-weight: 400;
-  top: 230px;
+  top: 200px;
   text-indent: 45px;
   text-align: justify;
   padding-left: 50px;
@@ -409,7 +423,10 @@ footer {
 }
 .skills{
   position: absolute;
-  top: 390px;
+  top: 340px;
+  width: 600px;
+  height:295px;
+  margin-left: 30px;
 }
 .circleOrder{
   width: 10px; 
@@ -439,7 +456,7 @@ footer {
     color: transparent; /* Hide the original text color */
     text-shadow: 0 0 0 #ffffff; 
     position: relative;
-    top: 250px;
+    top: 210px;
     text-align: center;
     padding-left: 40px;
     font-size: 25px;
@@ -450,7 +467,7 @@ footer {
   position:relative;
   top: 220px;
   color: #fff;
-  text-align: center;
+  margin-left: 40px;
   font-size: 25px;
   font-weight: 700;
 }
@@ -461,7 +478,7 @@ footer {
 .sideDiv2 {
   position: fixed;
   top: 0;
-  right: -660px; /* initially hidden off to the right */
+  right: -682px;; /* initially hidden off to the right */
   width: 50%;
   height: 100%;
   z-index: -1;
@@ -472,7 +489,18 @@ footer {
 .sideDiv3 {
   position: fixed;
   top: 0;
-  right: -660px; /* initially hidden off to the right */
+  right: -682px; /* initially hidden off to the right */
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+  background-color:#1c486b;
+  transition: right 0.5s; /* smooth transition */
+  
+}
+.sideDiv4{
+  position: fixed;
+  top: 0;
+  right: -682px; /* initially hidden off to the right */
   width: 50%;
   height: 100%;
   z-index: -1;
@@ -549,7 +577,6 @@ a{
   opacity: 1;
   left: 40px;
 }
-
 .btn-slide span.circle, .btn-slide2 span.circle2 {
   display: block;
   background-color:#2b6394;
@@ -597,4 +624,5 @@ a{
 .btn-slide span.title-hover, .btn-slide2 span.title-hover2 {
   color: #fff;
 }
+
 

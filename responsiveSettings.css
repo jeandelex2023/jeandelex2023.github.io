@@ -34,9 +34,9 @@
     }
     .profile-picture{
         position: fixed;
-        margin-left:60%;
-        top:116px;
-        width: 100px;
+        margin-left:50%;
+        top:150px;
+        /* width: 100px; */
         height: 50px;
     }
     .liner-right,.img-right-line{
@@ -50,6 +50,9 @@
     }
     .full-stack-web-developer{
         display: none;
+    }
+    .icon, .icon2{
+      display: none;
     }
   }
 /* Media query for medium-sized screens */
